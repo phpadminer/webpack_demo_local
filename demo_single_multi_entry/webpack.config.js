@@ -1,7 +1,10 @@
 module.exports = {
   mode:'production',
-  entry:'./main.js',
+  entry:{
+    app:'./main1.js',
+    home:'./main2.js'
+  },
   output:{
-    filename:'bundle.js'
+    filename:'[name].js'
   }
 }
